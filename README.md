@@ -1,5 +1,5 @@
 # yedijas.mathpuzzle
-![](https://img.shields.io/github/license/yedijas/yedijas.mathpuzzle?style=flat-square)![](https://img.shields.io/github/release/yedijas/yedijas.mathpuzzle?style=flat-square)
+![](https://img.shields.io/github/license/yedijas/yedijas.mathpuzzle?style=flat-square) ![](https://img.shields.io/github/release/yedijas/yedijas.mathpuzzle?style=flat-square)
 
 A very simple math puzzle for those math nerds who are bored.
 
