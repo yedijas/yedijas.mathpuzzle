@@ -69,6 +69,11 @@ namespace yedijas.mathpuzzle.logic
             while (secondNumber == 0)
             {
                 secondNumber = rng.Next(minNum, maxNum + 1);
+                if (_diff == Difficulty.EASY && secondNumber > firstnumber)
+                {
+                    secondNumber = 0;
+                }
+
             }
             switch (rng.Next(1, maxProblem + 1))
             {
@@ -81,16 +86,16 @@ namespace yedijas.mathpuzzle.logic
                     result = firstnumber - secondNumber;
                     break;
                 case 3:
-                    Operand = "mod";
-                    result = firstnumber % secondNumber;
+                    Operand = "x";
+                    result = firstnumber * secondNumber;
                     break;
                 case 4:
                     Operand = "/";
                     result = firstnumber / secondNumber;
                     break;
                 case 5:
-                    Operand = "x";
-                    result = firstnumber * secondNumber;
+                    Operand = "mod";
+                    result = firstnumber % secondNumber;
                     break;
                 case 6:
                     Operand = "ln";
